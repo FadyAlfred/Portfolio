@@ -1,0 +1,39 @@
+body {
+	font-family: 'Lato', sans-serif;
+
+}
+.dark {
+	color: #2d3c49;
+}
+.grey {
+	color: #7d97ad;
+}
+.logo {
+	padding-top: 25px;
+}
+/*make the title bigger*/
+.title {
+	font-size: 50px;
+}
+/*the line under the header*/
+hr { 
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 3px;
+} 
+/*when the screen be less then 500px */
+@media screen and (max-width: 500px){
+	/*make the font of some text bigger to be more readable */
+	.incFont{
+		font-size: 22px;
+	}
+	body{
+		max-width: 100%;
+	}
+}
+/*when the screen be less then 800px */
+@media screen and (max-width: 800px){
+	body{
+		max-width: 100%;
+	}
+	}
